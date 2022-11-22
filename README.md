@@ -48,8 +48,7 @@ Lost Royalty:
 # Sales Allocation
 - Creates a pie chart using the data.csv for the sales allocation on the different marketplaces.
 - During the reading process, Smart Royalty automatically checks each marketplace and their sales on the given collection.
-
-![PieChart](https://user-images.githubusercontent.com/68162827/203050452-81706ed7-0c00-488f-9312-21e99f8b07c9.png)
+![Chart](https://user-images.githubusercontent.com/68162827/203427919-c2d40e60-24f1-4ad5-86ed-d0ddca5e0d37.png)
 
 # Download Royalty Payers
 - Downloads a csv file containing all wallets and further information, which paid the Creator Royalty for the given collection.
