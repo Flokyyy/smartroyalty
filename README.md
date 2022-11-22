@@ -52,7 +52,7 @@ Lost Royalty:
 
 # Download Royalty Payers
 - Downloads a csv file containing all wallets and further information, which paid the Creator Royalty for the given collection.
-- This function can be really useful to projects who would like to reward users that respect their creator royalty and want to give them something back.
+- This function can be really useful to projects who would like to reward users that respect their Creator Royalty.
 
 ![Screenshot_1145](https://user-images.githubusercontent.com/68162827/203057888-15cef841-982e-433a-a66d-cdfde5b7f226.png)
 
