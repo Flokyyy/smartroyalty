@@ -1,4 +1,4 @@
-# SmartRoyalty by Flokyy 
+# SmartRoyalty
 
 # About Smart Royalty
 - Smart Royalty is a discord tool that tracks and saves royalty history and gives projects an overview of royalty fulfillment, analysis and much more.
