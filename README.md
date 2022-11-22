@@ -1,7 +1,7 @@
 # SmartRoyalty by Flokyy 
 
 # About Smart Royalty
-- Smart Royalty is a discord tool that tracks and saves royalty history and gives projects an overview of royalty fulfillment, analysis or and much more.
+- Smart Royalty is a discord tool that tracks and saves royalty history and gives projects an overview of royalty fulfillment, analysis and much more.
 - This projects uses the CoralCube API as the main data source: https://optemization.notion.site/optemization/Coral-Cube-Royalty-API-Documentation-4c37410d75ed40fe84ec212c82e33ac2
 
 # 1 Minute Video Overview
