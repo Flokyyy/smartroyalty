@@ -30,13 +30,6 @@ public class SmartRoyalty {
 	public static String update_authority = "834eju6tqRnTZYremg5PQiEhnRmaHqLKj7wyLt4eNeHa";
 	public static String secret_key = "INPUTYOURKEY"; // Discord Bot Secret Key
 	public static void main(String[] args) {
-		try {
-//			SmartRoyalty.connectMySQL();
-		} catch (Exception e) {
-			System.out.println("" + e.getMessage());
-			System.exit(1);
-		}
-		
 		builder = JDABuilder.createDefault(secret_key); 
 		builder.setStatus(OnlineStatus.ONLINE);
 		
