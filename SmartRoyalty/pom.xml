@@ -44,12 +44,6 @@
 			<artifactId>unirest-java</artifactId>
 			<version>3.13.6</version>
 		</dependency>
-
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-graphics</artifactId>
-            <version>16</version>
-        </dependency>
         
 		<dependency>
 		    <groupId>com.opencsv</groupId>
@@ -57,17 +51,6 @@
 		    <version>4.1</version>
 		</dependency>
 
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.31</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.jetbrains.kotlin</groupId>
-			<artifactId>kotlin-stdlib</artifactId>
-			<version>1.4.32</version>
-		</dependency>
 
 	</dependencies>
 </project>
