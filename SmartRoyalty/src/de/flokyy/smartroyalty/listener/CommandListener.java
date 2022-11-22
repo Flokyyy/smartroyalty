@@ -254,22 +254,17 @@ public class CommandListener extends ListenerAdapter {
 	
 	@Override
 	public void onButtonInteraction(ButtonInteractionEvent event) {
+		
 		if(event.isAcknowledged() == true) {
 			return;
 		}
 		
 		if (event.getComponentId().equals("Sales")) {
-			
-			event.deferReply(true).queue(); // Let the user know we received the command before doing anything else
-			InteractionHook hook = event.getHook(); // This is a special webhook that allows you to send messages without having permissions in the channel and also allows ephemeral messages
-		    hook.setEphemeral(true);
-		    
 			File pieChart = Dashboard.salesChart();
-			hook.sendMessage("Here you can see the overall sales allocation").addFile(pieChart).queue();
+			event.reply("Here you can see the overall sales allocation").addFile(pieChart).setEphemeral(true).queue();
 		}
 		
 		if (event.getComponentId().equals("All")) {
-			
 			event.deferReply(true).queue(); // Let the user know we received the command before doing anything else
 			InteractionHook hook = event.getHook(); // This is a special webhook that allows you to send messages without having permissions in the channel and also allows ephemeral messages
 		    hook.setEphemeral(true);
@@ -279,7 +274,6 @@ public class CommandListener extends ListenerAdapter {
 		}
 		
 		if (event.getComponentId().equals("Royalty")) {
-			
 			event.deferReply(true).queue(); // Let the user know we received the command before doing anything else
 			InteractionHook hook = event.getHook(); // This is a special webhook that allows you to send messages without having permissions in the channel and also allows ephemeral messages
 		    hook.setEphemeral(true);
@@ -291,14 +285,12 @@ public class CommandListener extends ListenerAdapter {
 		}
 		
 		if (event.getComponentId().equals("Wallet")) {
-			
 				 TextInput name = TextInput.create("Wallet", "Wallet-Address", TextInputStyle.SHORT)
 	          .setPlaceholder("Enter the wallet address here")
 	          .setMinLength(1)
 	          .setRequired(true)
 	          .build();
 	 
-	
 			 Modal modal = Modal.create("royaltytracker", "Royalty Wallet Tracker").addActionRow(name).build();
 			 event.replyModal(modal).queue();
 		}

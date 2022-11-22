@@ -28,8 +28,9 @@ public class SmartRoyalty {
 	
 	public static String collection = "lily";
 	public static String update_authority = "834eju6tqRnTZYremg5PQiEhnRmaHqLKj7wyLt4eNeHa";
-	public static String secret_key = "INPUTYOURKEY"; // Discord Bot Secret Key
+	public static String secret_key = "MTAxMjQxMDEyMjQ4MTQ0MjkyNg.G_L8s9.LCzGilctbxdqapTBxuKjUrTADfS9ASA3GvaiLs"; // Discord Bot Secret Key
 	public static void main(String[] args) {
+		
 		builder = JDABuilder.createDefault(secret_key); 
 		builder.setStatus(OnlineStatus.ONLINE);
 		
