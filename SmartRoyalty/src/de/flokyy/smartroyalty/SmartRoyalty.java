@@ -34,7 +34,7 @@ public class SmartRoyalty {
 		builder = JDABuilder.createDefault(secret_key); 
 		builder.setStatus(OnlineStatus.ONLINE);
 		
-		builder.addEventListeners(new CommandListener()); //Implementing the Listener
+		builder.addEventListeners(new CommandListener()); // Implementing the Command Listener
 	     
 		try {
 			jda = builder.build();
@@ -52,11 +52,11 @@ public class SmartRoyalty {
 						CoralCubeAPI.data.clear();
 						CoralCubeAPI.readData.clear();
 						
-						String limit = "50"; //Gets the last 50 sales
+						String limit = "50"; // Gets the last 50 sales
 						CoralCubeAPI.getLatestData(limit, update_authority, collection); //Fetching new data
 						
 						Dashboard.clearData(); // Clear data before
-						Dashboard.start(); //Starting the dashboard
+						Dashboard.start(); // Starting the dashboard
 						}
 
 						catch (Exception e2) {
