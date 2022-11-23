@@ -5,7 +5,7 @@
 - This projects uses the CoralCube API as the main data source: https://optemization.notion.site/optemization/Coral-Cube-Royalty-API-Documentation-4c37410d75ed40fe84ec212c82e33ac2
 
 # 1 Minute Video Overview
-- Coming very soon
+- https://www.youtube.com/watch?v=8Ev4LrY0038
 
 # Demo
 - You can test the Smart Royalty tool on our discord: https://discord.gg/q7pJcPgvKz
