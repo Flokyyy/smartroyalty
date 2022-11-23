@@ -2,26 +2,18 @@ package de.flokyy.smartroyalty.utils;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
-import java.awt.Font;
-import java.awt.GradientPaint;
-import java.awt.Point;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.text.DecimalFormat;
 import java.time.Clock;
 import java.time.OffsetDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.Paint;
-import java.awt.geom.Rectangle2D;
-import java.io.FileOutputStream;
+
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -30,11 +22,7 @@ import org.knowm.xchart.BitmapEncoder.BitmapFormat;
 import org.knowm.xchart.PieChart;
 import org.knowm.xchart.PieChartBuilder;
 import org.knowm.xchart.PieSeries.PieSeriesRenderStyle;
-import org.knowm.xchart.SwingWrapper;
-import org.knowm.xchart.VectorGraphicsEncoder;
-import org.knowm.xchart.VectorGraphicsEncoder.VectorGraphicsFormat;
 import org.knowm.xchart.style.PieStyler.LabelType;
-import org.knowm.xchart.style.Styler.ChartTheme;
 import org.knowm.xchart.style.Styler.LegendLayout;
 import org.knowm.xchart.style.Styler.LegendPosition;
 
@@ -96,8 +84,7 @@ public class Dashboard {
 				  chart.getStyler().setChartTitleVisible(false);
 				  chart.getStyler().setPlotContentSize(0.6);
 				  chart.getStyler().setPlotBorderColor(Color.WHITE);
-				  chart.getStyler().setDefaultSeriesRenderStyle(
-				    PieSeriesRenderStyle.Donut);
+				  chart.getStyler().setDefaultSeriesRenderStyle(PieSeriesRenderStyle.Donut);
 				  chart.getStyler().setDonutThickness(0.5);
 				  Color[] colorArr = {new Color(215,225,250),new Color(35,125,120),     
 				    new Color(255,115,135), new Color(70, 50, 140),new    
