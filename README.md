@@ -1,5 +1,4 @@
-# SmartRoyalty ![srlogo](https://user-images.githubusercontent.com/68162827/203658009-6480c962-a976-4c26-8836-82bac1b0ddb2.png)
-
+# SmartRoyalty
 
 # About Smart Royalty
 - Smart Royalty is a discord tool that tracks and saves royalty history and gives projects an overview of royalty fulfillment, analysis and much more.
